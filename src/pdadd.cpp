@@ -1,6 +1,13 @@
 #include "diary.hpp"
 #include <sstream>
 
+/**
+ *  ## Example
+ *  > pdadd
+ *  2021-7-10 Hello World!
+ *  2021-7-11 Hello World Again!
+ *  .
+ */
 int main() {
     auto book = DiaryBook(DataFile);
     std::string line;
